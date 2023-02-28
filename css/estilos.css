@@ -1,0 +1,94 @@
+/*@media (max-width: 800px) {
+  .cv-datos-pe {
+      width: 90%;
+  }
+}*/
+
+body{
+  background: #ECE9E6;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+  a:hover {
+  border-radius: 10px;
+  background-color: rgb(13, 202, 240);
+  }
+
+    *
+  {font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+
+  }
+ /*Box Datos Personales predefinido-no boostrap*/
+    .DatosPersonales {
+    width: 62%;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    box-shadow: 2px 2px 5px rgb(187, 198, 214);
+    border-radius: 10px;
+    margin-top: 30px;
+    padding: 20px;
+         
+  }
+   .cv-general {
+    width: 62%;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    text-align: left;
+    box-shadow: 2px 2px 5px rgb(187, 198, 214);
+    border-radius: 10px;
+    margin-top: 30px;
+    padding: 20px;    
+   }  
+     
+   .nombre {
+      padding-inline-start: 0%;
+      text-align: center;
+    }
+    
+    .doc
+    {
+      width: 100px;
+      padding-right: 150px;
+      padding: top 10px; ;
+    }
+        
+   
+
+     .page-footer {
+      padding-bottom: 10%;
+      background-color:rgba(0, 0, 0, 0);
+      margin: 0 auto;
+      margin-top: 10px;
+      padding: 20px;  
+    
+    }
+ 
+    .ancla:before {
+      display: block;
+      content:normal;
+      margin-top: 40px;
+      visibility: hidden; 
+    }
+
+    img {
+          border-radius: 50%;
+  
+        }
+
+    .bar{
+    background-color: black;
+    display: flex;
+    height: 60px;       
+    }    
+  
+  .Experiencias
+  {
+    font-size:12px;
+   
+  }
+  .icon {
+    padding-left: 5%;
+
+  }
